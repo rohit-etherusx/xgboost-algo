@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-data = pd.read_csv("data/default_of_credit_card_clients.csv", skiprows=1)
+data = pd.read_csv("data/default of credit card clients.csv", skiprows=1)
 
 # Extract features & labels
 X = data.iloc[:, 1:-1]  # Features (ignoring ID)
